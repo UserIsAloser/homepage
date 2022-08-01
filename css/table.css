@@ -1,0 +1,50 @@
+.table {
+    font-family: "Lato", sans-serif;
+    border-collapse: collapse;
+}
+
+.tableCell {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.tableHeader {
+    background-color: salmon;
+    color: antiquewhite;
+    font-weight: normal;
+}
+
+.tableRow :nth-child(even) {
+    background-color: #ccc;
+}
+
+.tableRow :hover {
+    background-color: #ddd;
+}
+
+.container {
+    overflow-x: auto;
+}
+.listitem{
+    margin: 10px 0;
+
+}
+.body{
+    font-family: "Lato", sans-serif ;
+}
+.list{
+    padding-left: 20px;
+}
+.orderdList{
+    list-style-type:upper-roman;
+}
+.unorderdList{
+    list-style-type: square;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    background-color: blueviolet;
+    padding: 5px 15px;
+}

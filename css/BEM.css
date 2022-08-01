@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+
+}
+
+.navigation {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.navigation__list {
+    list-style: none;
+    padding-left: 0;
+
+}
+
+.navigation__listItem {
+    margin: 5px;
+}
+
+.navigation__link{
+    text-decoration: none;
+}
+.navigation__link--buy{
+    color: teal;
+}

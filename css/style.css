@@ -1,0 +1,19 @@
+.header {
+    background-color: hsla(240, 100%, 50%, 0.747);
+    color: yellow;
+}
+
+.spant {
+    color: blue;
+}
+
+.divt {
+    color: midnightblue;
+}
+
+
+
+.body {
+    color: #333;
+    margin: 0;
+}

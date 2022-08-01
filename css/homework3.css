@@ -1,0 +1,97 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: 'Roboto', sans-serif;
+    max-width: 1000px;
+    padding: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    background-color: azure;
+}
+
+.button {
+    background-color: rgba(156, 10, 95, 0.836);
+    color: whitesmoke;
+
+}
+
+.dark {
+    background-color: rgb(144, 12, 63);
+    color: whitesmoke;
+}
+
+.header {
+    text-align: center;
+    font-size: 40px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 20px;
+    padding: 10px 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.link {
+    padding: 40px;
+    color: black;
+}
+
+.text {
+    text-align: center;
+}
+
+.imgBrandon {
+    width: 350px;
+}
+
+.imgRonnie {
+    width: 350px;
+}
+
+.imgDavid {
+    width: 350px;
+}
+
+.imgMark {
+    width: 350px;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+.tableCell {
+    border: 3px solid black;
+    padding: 20px;
+    text-align: center;
+    vertical-align: center;
+    background-color: rgba(199, 11, 11, 0.671);
+    color: white;
+    
+}
+
+.tableHeader {
+    background-color: rgb(177, 13, 54);
+    border: 3px solid black;
+    color: white;
+
+}
+
+.tableRow:hover {
+    background-color: rgb(175, 21, 72);
+}
+.container{
+    overflow-x: auto;
+}

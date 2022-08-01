@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/formularz.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <script defer src="/script.js/formularz.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <p>pola wymagane oznaczone*.</p>
+        <form class="form" action="https://postman-echo.com/get">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Dane osobowe</legend>
+                <p>
+                    <label>
+                        <span class="form__labelText">
+                            Imię*:</span> <input class="form__field" name="firstName" required>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="form__labelText"> Nazwisko*:</span><input class="form__field" name="lastName" required>
+                    </label>
+                </p>
+                <button class="form__button">Wyślij</button>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Ulbione wokaliści
+                </legend>
+                <ul>
+                    <li>
+                        <label>
+                            <input type="checkbox" name="Brandon Flowers" checked>Brandon Flowers
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox" name="Brandon Urie">Brandon Urie
+                        </label>
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Ulbiony wokalista
+                </legend>
+                <ul>
+                    <li>
+                        <label>
+                            <input type="radio" name="favouriteSinger" value="Flowers" checked>Brandon Flowers
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="favouriteSinger" value="Urie">Brandon Urie
+                        </label>
+                    </li>
+                </ul>
+            </fieldset>
+            <label>
+                Załącz swoje CV:
+                <input type="file" name="cv">
+            </label>
+            <label>
+                Podaj swoje hasło:
+                <input type="password" name="password">
+            </label>
+            <label>Twój wzrozst <input type="number" name="height" min="120" max="190" maxlength="3"></label>
+            <label>
+
+                <fieldset>
+                    Maksymalna cena:
+                    <input type="range" name="maxPrice" min="1000" max="2000" step="100">
+            </label>
+            <label>
+                <fieldset>
+                    Marka samochodu:
+                    <input name="carBrand" list="carBrands">
+                    <datalist id="carBrands">
+                        <option>Audi</option>
+                        <option>BMW</option>
+                        <option>Lexus</option>
+                        <option>Mazda</option>
+                        <option>Mercedes-Benz</option>
+                        <option>Porsche</option>
+                        <option>Tesla</option>
+                        <option>Toyota</option>
+                        <option>Volvo</option>
+                    </datalist>
+            </label>
+            <label>
+                Kolor nadwozia
+                <input name="color" type="color" value="#cccccc">
+            </label> </fieldset>
+            <input name="dateAndTime" type="datetime-local">
+            <button>Wyślij</button>
+        </form>
+        <form>
+            <fieldset>
+                <legend>Protokół</legend>
+                <p>
+                    <label>Protokół
+                        <input type="protocol" pattern="https?">
+                    </label>
+                </p>
+            </fieldset>
+            <button>Wyślij</button>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    color: #000000;
+    margin: 0;
+}
+
+.dark {
+    color: #eee;
+    background-color: #222;
+}
