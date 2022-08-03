@@ -1,3 +1,10 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
 .header {
     background-color: hsla(240, 100%, 50%, 0.747);
     color: yellow;
@@ -29,4 +36,26 @@
     background-repeat: space;
     background-color: #ccc;
     color: aliceblue;
+}
+.flex {
+    border: 10px solid black;
+    width: 500px;
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    flex-direction: row;
+ 
+}
+.flex__item{
+    padding: 20px;
+    background: teal;
+    color: white;
+    margin: 10px;
+    
+}
+.flex__item--last{
+    
+}
+.flex__item--first{
+    
 }
