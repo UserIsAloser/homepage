@@ -42,7 +42,7 @@ html {
     width: 500px;
     display: flex;
     height: 300px;
-    justify-content: center;
+    justify-content: flex last baseline;
     flex-direction: row;
  
 }
