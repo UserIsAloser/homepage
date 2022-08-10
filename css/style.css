@@ -5,52 +5,93 @@ html {
 *, ::after, ::before {
     box-sizing: inherit;
 }
-.header {
-    background-color: hsla(240, 100%, 50%, 0.747);
-    color: yellow;
-}
-
-.spant {
-    color: blue;
-}
-
-.divt {
-    color: midnightblue;
-}
-
-
 
 .body {
-    color: #333;
-    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1000px;
+    padding: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    background-color: azure;
 }
 
-.container {
-    width: 300px;
-    height: 300px;
-    background-image: url("../Images/images.jpg");
-    resize: both;
-    overflow: auto;
-    background-position: center;
-    background-size: contain;
-    background-repeat: space;
-    background-color: #ccc;
-    color: aliceblue;
+.button {
+    background-color: rgba(156, 10, 95, 0.836);
+    color: whitesmoke;
+
 }
-.flex {
-    border: 10px solid black;
-    width: 500px;
+
+.dark {
+    background-color: rgb(144, 12, 63);
+    color: whitesmoke;
+}
+
+.header {
+    text-align: center;
+    font-size: 40px;
+}
+
+.navigation {
     display: flex;
-    height: 300px;
-    justify-content: flex last baseline;
-    flex-direction: row;
- 
+    justify-content: center;
+    list-style-type: none;
+    margin: 20px;
+    padding: 10px 20px;
+    border: 3px solid black;
+    border-radius: 10px;
 }
-.flex__item{
+
+.link {
+    padding: 40px;
+    color: black;
+}
+
+.text {
+    text-align: center;
+}
+
+.imgBrandon {
+    width: 350px;
+}
+
+.imgRonnie {
+    width: 350px;
+}
+
+.imgDavid {
+    width: 350px;
+}
+
+.imgMark {
+    width: 350px;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+.tableCell {
+    border: 3px solid black;
     padding: 20px;
-    background: teal;
+    text-align: center;
+    vertical-align: center;
+    background-color: rgba(199, 11, 11, 0.671);
     color: white;
-    margin: 10px;
     
 }
-    
+
+.tableHeader {
+    background-color: rgb(177, 13, 54);
+    border: 3px solid black;
+    color: white;
+
+}
+
+.tableRow:hover {
+    background-color: rgb(175, 21, 72);
+}
+.container{
+    overflow-x: auto;
+}
